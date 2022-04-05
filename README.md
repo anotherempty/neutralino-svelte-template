@@ -4,20 +4,55 @@ There are many ways to integrate Svelte with Neutralino, this template shows one
 
 ## Table of contents
 
-  - [Integration](#integration)
-  - [Get started](#get-started)
-    - [Building and running in production mode](#building-and-running-in-production-mode)
-    - [Using TypeScript](#using-typescript)
+  - [How to use this template](#how-to-use-this-template)
+  - [Manually integrate Svelte with Neutralino](#manually-integrate-svelte-with-neutralino)
+  - [Running and Building](#running-and-building)
+    - [Running in dev mode](#running-in-dev-mode)
+    - [Building](#building)
+  - [Using TypeScript](#using-typescript)
   - [Icon credits](#icon-credits)
 
 <br>
 
-
-## Integration
+## How to use this template
 
 <ol>
   <li>
-    <p>Create a Neutralino project:</p>
+    <p>Create a Neutralino project with</p>
+
+```sh
+neu create
+```
+
+  </li>
+  <li>
+    <p>Delete the <code>resources</code> folder</p>
+  </li>
+  <li>
+    <p>Go to the base folder of the created app and download the template :</p>
+
+```sh
+npx degit anotherempty/neutralino-svelte-template . --force
+```
+  </li>
+  <li>
+    <p>Go inside the <code>svelte</code> folder and install the dependencies:</p>
+
+```sh
+npm install
+```
+  </li>
+  <li>
+    <p>Then run in dev mode or build your app, see the <a href="#running-and-building">Running and Building</a>
+     section on how to.</p>
+  </li>
+</ol>
+
+## Manually integrate Svelte with Neutralino
+
+<ol>
+  <li>
+    <p>Create a Neutralino project with</p>
 
 ```sh
 neu create
@@ -91,7 +126,9 @@ npx degit sveltejs/template svelte
 
 <br>
 
-## Get started
+## Running and Building
+
+### Running in dev mode
 
 Open the <code>svelte</code> folder and install the its dependencies ...
 
@@ -105,13 +142,13 @@ npm install
 npm run dev
 ```
 
-...then start Neutralino in another terminal:
+...then go back to the base folder and start Neutralino in another terminal:
 
 ```bash
 neu run
 ```
 
-### Building and running in production mode
+### Building 
 
 Open the <code>svelte</code> folder and run the build command ...
 
@@ -125,7 +162,7 @@ npm run build
 neu build
 ```
 
-### Using TypeScript
+## Using TypeScript
 
 Go inside the <code>svelte</code> folder and run :
 
