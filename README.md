@@ -18,32 +18,28 @@ There are many ways to integrate Svelte with Neutralino, this template shows one
 
 <ol>
   <li>
-    <p>Create a Neutralino project with</p>
+    <p>Create a Neutralino app using this template by running:</p>
 
 ```sh
-neu create
-```
-
-  </li>
-  <li>
-    <p>Delete the <code>resources</code> folder</p>
-  </li>
-  <li>
-    <p>Go to the base folder of the created app and download the template :</p>
-
-```sh
-npx degit anotherempty/neutralino-svelte-template . --force
+npx degit anotherempty/neutralino-svelte-template your-app
 ```
   </li>
   <li>
-    <p>Go inside the <code>svelte</code> folder and install the dependencies:</p>
+    <p>Open your app base folder and initialize the Neutralino binaries:</p>
+
+```sh
+neu update
+```
+  </li>
+  <li>
+    <p>Go inside the <code>svelte</code> folder and install its dependencies:</p>
 
 ```sh
 npm install
 ```
   </li>
   <li>
-    <p>Then run in dev mode or build your app, see the <a href="#running-and-building">Running and Building</a>
+    <p>Finally run in dev mode or build your app, see the <a href="#running-and-building">Running and Building</a>
      section on how to.</p>
   </li>
 </ol>
