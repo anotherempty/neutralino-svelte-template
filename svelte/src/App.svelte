@@ -59,8 +59,6 @@
     Neutralino.app.exit();
   };
 
-  Neutralino.init();
-
   Neutralino.events.on("trayMenuItemClicked", onTrayMenuItemClicked);
   Neutralino.events.on("windowClose", onWindowClose);
 
