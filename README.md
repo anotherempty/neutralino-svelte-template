@@ -126,7 +126,7 @@ npx degit sveltejs/template svelte
 
 ### Running in dev mode
 
-Open the <code>svelte</code> folder and install the its dependencies ...
+Open the <code>svelte</code> folder and install its dependencies if not already done ...
 
 ```bash
 npm install
@@ -138,7 +138,7 @@ npm install
 npm run dev
 ```
 
-...then go back to the base folder and start Neutralino in another terminal:
+...then open another terminal from the base folder and start Neutralino:
 
 ```bash
 neu run
@@ -152,7 +152,7 @@ Open the <code>svelte</code> folder and run the build command ...
 npm run build
 ```
 
-... then go back to the base folder and build the Neutralino app
+... then from the base folder, build the Neutralino app
 
 ```bash
 neu build
