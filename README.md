@@ -1,5 +1,7 @@
 # Neutralino + Svelte
 
+<img src="https://i.ibb.co/xS6mJTY/image-2022-04-08-094444991.png" alt="Preview" style="max-width:800px">
+
 There are many ways to integrate Svelte with Neutralino, this template shows one of them
 
 ## Table of contents
